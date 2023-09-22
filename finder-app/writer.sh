@@ -13,5 +13,5 @@ echo "$2" > "$1"
 if [ $? -eq 0 ]; then
 	echo "successful write"
 else
-	echo "failed writing content to $1"
+	echo "failed writing $2 to $1"
 fi
