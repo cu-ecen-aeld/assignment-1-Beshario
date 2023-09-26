@@ -2,7 +2,7 @@
 
 # Check for the correct number of arguments
 if [ $# -ne 2 ]; then
-    echo "Usage: $0 filesdir search_string"
+    echo "Usage: $0 filesdir content"
     exit 1
 fi
 
